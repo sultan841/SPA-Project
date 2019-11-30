@@ -1,0 +1,31 @@
+input.ng-touched.ng-invalid, select.ng-touched.ng-invalid {
+    border:solid red 2px;
+}
+input.ng-touched.ng-valid, select.ng-touched.ng-valid {
+    border:solid -webkit-linear-gradient(left, #3931af, #00c6ff) 2px;
+}
+.auth{
+    display: flex;
+    justify-content: center;
+}
+.sc {
+    margin-top: 50px;
+}
+.btnAuth{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+ 
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

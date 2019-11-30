@@ -1,0 +1,23 @@
+.attestation {
+    margin: auto;
+    width: 800px;
+}
+table {
+    font-size: 14px;
+   }
+th:first-child {
+    width: 5px;
+    padding-right: 0 !important;
+}   
+th:nth-child(2) {
+    width: 150px;
+}
+th {
+    background:steelblue;
+    color: white;
+    width: 80px;
+}
+td {
+    height:50px; 
+    border: solid 1px silver; 
+}

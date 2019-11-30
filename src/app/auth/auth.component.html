@@ -1,0 +1,15 @@
+<form  [formGroup]="authFormGroup" (ngSubmit)="submit()">
+    <div class="row auth">
+        <div class="col-md-7 sc">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Login *" formControlName="login" />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password *" formControlName="password" />
+            </div>
+            <div class="submit">
+                <input type="submit" class="btnAuth" value="Login" (click)="login()"/>
+            </div>
+        </div>     
+    </div>
+</form>

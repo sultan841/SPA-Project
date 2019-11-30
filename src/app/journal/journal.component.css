@@ -1,0 +1,75 @@
+.journal {
+    width: 100%;
+}
+.attendance-table {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    font-size: 14px;
+   }
+th {
+    background:steelblue;
+    color: white;
+}
+td {
+    height:50px; 
+    white-space: nowrap;
+    border: solid 1px silver; 
+}
+.d-flex {
+    /* padding: 10px !important; */
+    margin: 15px 5px !important;
+    justify-content: flex-start;
+}
+.form-control {
+    margin-right: 10px !important;
+    width: 200px !important;
+}
+.menu-jn {
+    display: flex;
+    flex-direction: row;
+}
+.jn-att > thead > tr {
+    background: black
+}
+.sc {
+    margin-left : 5px !important;
+    overflow-x:auto;
+    width: 100%;
+    padding: 0 5px !important;
+}
+
+.scrollbar-pink::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+.scrollbar-pink::-webkit-scrollbar {
+width: 12px;
+height: 5px;
+background-color: #F5F5F5; }
+
+.scrollbar-pink::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: steelblue; }
+
+
+.bordered-pink::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid steelblue; }
+
+.bordered-pink::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }

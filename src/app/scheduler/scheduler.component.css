@@ -1,0 +1,67 @@
+table {
+    width: 100%; 
+   }
+th {
+    width: 110px;
+}
+th:first-child {
+    background: gold;
+    width: 50px;
+}
+td:first-child {
+    border: none;   
+    vertical-align: inherit;
+    background: white;;
+}
+td{
+    height:100px; 
+    border: solid 1px silver; 
+    text-align:center;
+    border: solid 1px silver; 
+
+}
+td.time {
+    background: lightcoral;
+}
+td:nth-child(5) {
+    background: lightgreen;
+}
+td:nth-child(6) {
+    background: lightyellow ;
+}
+
+table {
+    width: 100%; 
+   }
+th {
+    width: 110px;
+}
+th:first-child {
+    background: gold;
+    width: 50px;
+}
+td:first-child {
+    border: none;
+    vertical-align: inherit;
+    background: white;;
+}
+td{
+    height:100px; 
+    border: solid 1px silver; 
+    text-align:center;
+    border: solid 1px silver; 
+
+}
+td.time {
+    background: lightcoral;
+}
+td:nth-child(5) {
+    background: lightgreen;
+}
+td:nth-child(6) {
+    background: lightyellow ;
+}
+.calendar {
+    margin:0 auto;
+    width: 85%;
+}
